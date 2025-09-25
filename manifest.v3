@@ -8,17 +8,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="EmployeePayroll">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">2</value>
+  <value name="build">3</value>
   <null name="description"/>
   <value name="created_date">25-09-2025 06:49:29 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-09-25T06:49:33.363857359Z</value>
+  <value name="lastUpdated">2025-09-25T06:56:13.716145546Z</value>
   <value name="wmProjectId">fl082db95d2caf4c5bac6f5b2b4a40e36b</value>
   <value name="creator">Rahul Singh</value>
 </Values>
